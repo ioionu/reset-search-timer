@@ -1,0 +1,50 @@
+{
+  "name": "reset-search-timer",
+  "title": "Reset Search Timer",
+  "id": "jid1-4xaim362OVuaHQ",
+  "description": "Timer to reset search engine to your default",
+  "author": "{sydney:webdev}",
+  "license": "GPL 3.0",
+  "version": "0.1",
+  "preferences": [{
+    "name": "resetSearchTime",
+    "type": "menulist",
+    "title": "Select time before search default is reset",
+    "description": "How often should the search be reset",
+    "value": -1,
+    "options": [
+        {
+            "value": "-1",
+            "label": "Never"
+        },
+        {
+            "value": "30000",
+            "label": "30 Seconds"
+        },
+        {
+            "value": "300000",
+            "label": "5 Min"
+        },
+        {
+            "value": "3600000",
+            "label": "1 Hour"
+        }
+
+    ]
+  },
+  {
+    "name": "setResetSearchEngine",
+    "description": "Select a search engine, then click 'Set Default'",
+    "type": "control",
+    "title": "Set Default Reset Engine",
+    "label": "Set Default Reset Engine"
+  },
+  {
+    "name": "resetSearchEngine",
+    "title": "Engine to reset search to",
+    "type": "string",
+    "value": "Google",
+    "hidden": true
+  }
+  ]
+}
