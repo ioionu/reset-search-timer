@@ -6,6 +6,9 @@
   "author": "{sydney:webdev}",
   "license": "GPL 3.0",
   "version": "0.1",
+  "icon": "./data/icon.png",
+  "icon": "./data/icon64.png",
+  "homepage": "http://sydneywebdev.com",
   "preferences": [{
     "name": "resetSearchTime",
     "type": "menulist",
@@ -37,7 +40,7 @@
     "description": "Select a search engine, then click 'Set Default'",
     "type": "control",
     "title": "Set Default Reset Engine",
-    "label": "Set Default Reset Engine"
+    "label": "Set Default"
   },
   {
     "name": "resetSearchEngine",
