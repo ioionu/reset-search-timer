@@ -9,15 +9,17 @@
   "icon": "./data/icon.png",
   "icon": "./data/icon64.png",
   "homepage": "http://sydneywebdev.com",
+  "main": "main",
   "preferences": [{
     "name": "resetSearchTime",
     "type": "menulist",
     "title": "Select time before search default is reset",
     "description": "How often should the search be reset",
-    "value": -1,
+    "value": 0,
+    "hidden": false,
     "options": [
         {
-            "value": "-1",
+            "value": "0",
             "label": "Never"
         },
         {
@@ -40,7 +42,8 @@
     "description": "Select a search engine, then click 'Set Default'",
     "type": "control",
     "title": "Set Default Reset Engine",
-    "label": "Set Default"
+    "label": "Set Default",
+    "hidden": false
   },
   {
     "name": "resetSearchEngine",
