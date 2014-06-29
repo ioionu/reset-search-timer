@@ -5,7 +5,7 @@
   "description": "Timer to reset search engine to your default",
   "author": "{sydney:webdev}",
   "license": "GPL 3.0",
-  "version": "0.1",
+  "version": "0.1.1",
   "icon": "./data/icon.png",
   "icon": "./data/icon64.png",
   "homepage": "http://sydneywebdev.com",
